@@ -1,0 +1,88 @@
+/*
+Clase:
+atributos y metodos
+
+-----
+
+Herencia(simple, no multiple):
+
+Pro = (reutiliza super)
+
+(Especializacion) Abajo   (X1 es un c.p. de X)
+A -> A1, A2
+
+(Generalizacion)  Arriba  (X1 es un X)
+A1, A2 -> A
+
+-----
+
+Polimorfismo:
+esa clase o object (muchas formas)
+
+capacidad de responder al mismo metodo en objetos diferentes, de distintas formas
+depende del objeto de creacion (hasta no ejecutar no sabe que genera)
+
+-----
+
+Por defecto object
+
+class Animal{
+    void digerir(){System.out.println("se comio");}
+}
+
+class Canivoro extends Animal{  (Carnivoro hereda Animal)
+    @Override void digerir(){SysOut("se comio pero carnivoro");} //OVERRIDE DE UN METODO DE UN PADRE
+}
+
+class Leon extends Carnivoro{   (Leon hereda Carnivoro que hereda Animal)
+
+}
+
+Animal a = new Animal();
+a.digerir();
+
+Carnivoro c = new Carnivoro();
+c.digerir();
+
+Leon l = new Leon();
+l.digerir();
+
+animales = [];
+
+forEach(Animal a : animales){
+  a.digerir();
+}
+
+Oracle
+JVM:
+
+JRE; RUNTIME para ejecutar
+
+JDK; COMPILADOR para compilar
+
+JDK 1.8 alias: JAVA 8
+
+*/
+
+//Problema del rombo no se pueden hacer hombres lobo
+
+/*
+source code (.java ) in
+bytecode    (.class) out
+
+archivo por clase
+*/
+
+/*
+Main.java
+
+package com.company
+
+class main{
+  public static void main(String[]args){ //Punto de entrada
+    System.out.println("Hello");
+  }
+}
+
+
+*/
