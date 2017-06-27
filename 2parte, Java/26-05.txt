@@ -1,0 +1,13 @@
+/*
+
+UML
+
+diagrama de clase (1*)
+
+Clases abstractas
+
+comportamiento que no tenga sentido en un punto de la herencia
+en animal no es importante saber como dijiere
+(Animal en cursiva)
+
+*/

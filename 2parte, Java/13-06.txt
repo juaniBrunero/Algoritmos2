@@ -1,0 +1,28 @@
+/*
+
+  Manejo de errores
+
+  (excepciones)
+
+  try{
+
+  }catch(Exception e){
+      
+  }finally{
+
+  }
+
+
+  throwable
+
+  error                           exception
+
+  outofmemory   stackoverflow     runtimeexception      filenotfound
+
+                                  arigmeticexception
+
+
+  checked    manejo de error
+  unchecked  no necesario manejo de eror
+
+*/
